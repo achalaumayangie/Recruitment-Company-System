@@ -1,0 +1,119 @@
+body{
+* {    
+  box-sizing: width 60px;
+            : heght 30px;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 179px;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;   
+  
+}     
+}    
+input[type=email], textarea {    
+  width: 350px;    
+  padding: 15px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical; 
+  padding-left: 100px;
+
+}    
+body{
+	 background-color: #87ec73;
+ }   
+label {    
+  padding: 22px 22px 22px 20;    
+  display: inline-block;    
+}    
+    
+.row input[type=submit] {    
+  background-color:#09dd09 ;    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+.row input[type=submit]:hover {    
+  background:  #2affa6;
+  cursor:pointer;
+}    
+    
+.container { 
+  margin-top: -600px;
+  width: 50%;   
+  border-radius: 5px;    
+  background-color: #73e258;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 20%;    
+  margin-top: 2px;    
+}  
+
+.sh{
+  width:100%;
+  padding:10px;
+  margin:-10px;
+  border-radius: 5px; 
+  margin-bottom:19px;
+  color:#fff;
+  background-color:#3aff09;
+}  
+    
+.col-75 {    
+  float: left;    
+  width: 60%;    
+    
+}    
+.col-5 {    
+  float: left;    
+  width: 300px;    
+     
+      }    
+.col-15 {    
+  float: left;    
+        }
+.review{
+	margin-top: 100px;
+	border-style: solid;
+	width: 510px;
+	height: 700px;
+	margin-left: 800px;
+	background-color: #6e706b;
+}
+ 
+.sha{
+	margin-left: -118px;
+	margin-top: 100px;
+    top: 5%;
+    width: 500px;
+    text-align: center;
+    padding: 0px;
+    left: 50%;
+    background-color: #3aff09;
+    position: absolute;
+    transform: translate(50%,-50%);
+}
+   
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}  
+.h2{
+  float: center;
+  width:50%;
+  border:2px;
+  background-color:green;
+}  
+   } 

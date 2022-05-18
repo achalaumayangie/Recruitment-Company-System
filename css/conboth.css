@@ -1,0 +1,87 @@
+.row-content {
+	margin-top: 40px;
+	float: left;
+  	width: 15%;
+  	height: 200px;
+  	background-color: #f7f7f7;
+  	min-height: 800px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.row-content a {
+	background-color: #eee;
+  	color: black;
+  	display: block;
+ 	padding: 12px;
+ 	text-decoration: none;
+}
+
+.row-content a.hover {
+  background-color: #ccc;
+}
+
+.row-content a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Layout{
+
+	float: left;
+	width: 70%;
+	border-top:none;
+	border-left:none;
+}
+
+.main-heading {
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+}
+
+.icon{
+	font-size: 40px !important;
+	margin-top: 10px;
+	text-align: left;
+	float: none;
+}
+
+.comIcon{
+	display: inline-block;
+}
+
+.main-form{
+	float: left;
+	width: 60%;
+	border-top:none;
+	border-left:none;
+}
+
+.titleIcon{
+	display: inline-block;
+}
+
+.seco-form{
+	margin-top: -100px;
+	float: right;
+  	width: 25%;
+  	height: 200px;
+  	background-color: #f7f7f7;
+  	min-height: 800px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+
+}
+
+.seco-form a{
+	background-color: #eee;
+  	color: black;
+  	display: block;
+ 	padding: 12px;
+ 	text-decoration: none;
+
+}

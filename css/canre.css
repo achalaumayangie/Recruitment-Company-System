@@ -1,0 +1,82 @@
+.row-content {
+	margin-top: 40px;
+	float: left;
+  	width: 15%;
+  	height: 200px;
+  	background-color: #f7f7f7;
+  	min-height: 520px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.row-content a {
+	background-color: #eee;
+  	color: black;
+  	display: block;
+ 	padding: 12px;
+ 	text-decoration: none;
+}
+
+.row-content a.hover {
+  background-color: #ccc;
+}
+
+.row-content a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Layout{
+
+	float: left;
+	width: 85%;
+	border-top:none;
+	border-left:none;
+}
+
+.main-heading {
+	display: inline-block;
+	width: 85%;
+	text-align: center;
+}
+
+.icon{
+	font-size: 40px !important;
+	margin-top: 10px;
+	text-align: left;
+	float: none;
+}
+
+.comIcon{
+	display: inline-block;
+}
+
+.searchbar button.hover {
+	 background: #ccc;
+}
+
+.searchbar{
+	float: none;
+	text-align: right;
+}
+
+.table {
+	text-align: center;
+	font-family: arial, sans-serif;
+  	border-collapse: collapse;
+  	float: none;
+}
+.table td,th {
+	border: 1px solid #dddddd;
+  	text-align: left;
+ 	padding: 8px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+a:hover, a:active {
+  background-color: #4CAF50;
+}

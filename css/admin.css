@@ -1,0 +1,255 @@
+html {
+  scroll-behavior: smooth;
+}
+.rButton{
+	padding: 10px;
+	background-color: #f93d3d;
+	border-radius: 100px;
+}
+
+.rButton a{
+	color: #fff !important;
+}
+
+.alertS{
+	text-align: center;
+	display: inline-block;
+	background: #02cc02;
+	color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.rButton:hover{
+	background-color: #e62c2c;
+}
+
+.adminIco i{
+	font-size: 22px;
+}
+
+
+.icoColumn{
+	width: 30%;
+	float: left;
+}
+
+.icoTitle{
+	width: 40%;
+	float: left;
+	font-size: 30px;
+}
+
+.icoColumn i{
+	font-size: 60px;
+}
+
+.countColumn{
+	width: 30%;
+	float: left;
+	font-size: 30px;
+	background-color: #09dd09;
+	color: #fff;
+	font-weight: bold;
+	border-top-left-radius: 100px;
+}
+
+.Icolumn{
+	width: 40%;
+	display: inline-block;
+	margin: 20px;
+	border: 2px solid #0ea642;
+	border-radius: 10px;
+}
+.table{
+	text-align: center;
+}
+.table table{
+	width: 100%;
+	border-collapse: collapse;
+	border : 2px solid #0ea642;
+}
+.table .title{
+	border: 2px solid #0ea642;
+	padding: 5px;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 0px;
+	background: #0ea642;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.table th{
+	background-color: #1db759;
+	color: #fff;
+}
+
+.table table th,td{
+	padding: 10px;
+	border : 2px solid #0ea642;
+}
+.table td{
+	cursor: pointer;
+}
+.table tr:hover{
+  background-color: #d7d6d6;
+}
+
+.info{
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 2px solid #119d48;
+	background-color: #12ac4e;
+	color: #fff;
+	font-weight: bold;
+  	cursor: pointer;
+	width: 70%;
+}
+
+.info:hover{
+	background-color: #119d48;
+}
+
+.enable{
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 2px solid #119b11;
+	background-color: #09cc09;
+	color: #fff;
+	font-weight: bold;
+  	cursor: pointer;
+	width: 70%;
+}
+
+.disable{
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 2px solid #bf1818;
+	background-color: #ff3030;
+	color: #fff;
+	font-weight: bold;
+  	cursor: pointer;
+	width: 70%;
+}
+
+.delete{
+	margin-top: 5px;
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 2px solid #e6ae0a;
+	background-color: #ffbf00;
+	color: #fff;
+	font-weight: bold;
+  	cursor: pointer;
+	width: 70%;
+}
+
+.enable:hover{
+	background-color: #119b11;
+}
+.disable:hover{
+	background-color: #bf1818;
+}
+.delete:hover{
+	background-color: #e6ae0a;
+}
+
+.add{
+	border: 2px solid #0ea642;
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 0px;
+	border-radius: 0px 0px 10px 10px !important;
+	width: 50%;
+	background-color: #0dacc6 !important;
+	border-top: none !important;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.add:hover{
+  background-color: #0d99b0 !important;
+}
+
+
+/*company and employee add form styles*/
+.form{
+	margin-top: 10px;
+	text-align: center;
+	width: 70%;
+	display: none;
+}
+form{
+	text-align: left;
+}
+.form input{
+  border: 3px solid #0dacc6;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+.form p{
+  margin-top: -20px !important;
+	font-weight: bold;
+}
+.form fieldset{
+	padding: 10px 30px;
+	border: 2px solid #13d1f0;
+	border-radius: 10px;
+}
+.form legend{
+	font-weight: bold;
+	border:2px solid #13d1f0;
+	padding: 8px;
+	background-color: #13d1f0;
+	color: #fff;
+	border-radius: 0px 100px 100px 100px;
+}
+.form input[type=submit]{
+	width: 100%;
+	border-radius: 100px;
+	font-weight: bold;
+	background-color: #0dacc6;
+	color: #fff;
+	cursor: pointer;
+}
+.form input[type=submit]:hover{
+	background-color: #0b96ac;;
+}
+.form p{
+  margin-bottom: 5px;
+	margin-top: 10px !important;;
+}
+
+.cancel{
+	background: #e81c1c;
+	padding: 12px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 50% 50% 0% 50%;
+	cursor: pointer;
+}
+
+#companyLay,#employeeLay{
+	display: none;
+}
+
+/*responsive styles*/
+@media screen and (max-width:600px) {
+	.Icolumn{
+		width: 95%;
+	}
+	.enable,.disable,.delete,.info,.form{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width:925px) {
+	.Icolumn #ti{
+		font-size: 25px;
+	}
+}
